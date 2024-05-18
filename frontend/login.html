@@ -35,7 +35,7 @@
                     <p class="error-message login-email-error-message" hidden="">Please enter a valid E-mail / Mobile number.</p>
                 </div>
 
-                <div class="auth-form__span-2 password">
+                <div class="auth-form__span-2 password" id="pass">
                     <label class="label" for="password">Enter Password</label>
                     <input id="login_password" type="password" class="input" id="pass-word" placeholder="Enter Password" value="" required="">
                     <span class="login-wrap-hide-pwd togglePassword"> 
@@ -48,17 +48,18 @@
                 </div>
 				<div class="max-100">
 					<div class="max-l50 nowrap mt mb">
-						<label class="checkbox">
+						<label class="checkbox"id="remMe">
 							<input id="remember_me" type="checkbox" tabindex="0">
-							<span class="checkmark"></span>Remember Me
+							<span class="checkmark" ></span>Remember Me
 						</label>
 					</div> 
-					<div class="max-r50 nowrap mt mb">
+					<div class="max-r50">
 						<a href="#" class="text-secondary" id="spanForgot">
-							<i class="fa fa-user-check" aria-hidden="true"></i> Forgot password?
+							<img src="./images/form/forgot-password.png" id="forgot-pass"> Forgot password?
 						</a>
 					</div>
 				</div>
+                <br>
                 
                 <button id="sign_in_btn" type="button" class="button auth-form__button">Sign In</button>
             </form>
@@ -79,7 +80,7 @@
 
 
 
-             <div class="auth-footer">
+             <div class="auth-footer" id="auth-foot">
                 <p class="or-divider">or</p>
                 <div class="login">
                     <a href="#" class="button" id="btnGoogle">
