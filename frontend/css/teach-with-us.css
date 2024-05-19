@@ -25,20 +25,19 @@
     margin-bottom: 0.8rem;
 }
 
-.teach-btn{
+.teach-btn, .ins-btn, .submit-btn{
     padding-inline: 4rem;
     padding-block: 0.6rem;
     color: white;
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     border-radius: 0.6rem;
-    font-size: 1.4rem;
-    font-weight: 600;
+    font-size: 1.6rem;
     cursor: pointer;
     transition: all 0.25s ease-in;
 }
 
-.teach-btn:hover{
+.teach-btn:hover, .ins-btn:hover, .submit-btn:hover{
     background-color: white;
     color: var(--primary-color);
 }
@@ -84,4 +83,112 @@
     flex-grow: 1;
     display: flex;
     gap: 0.6rem;
+}
+
+.become-instructor{
+    background-color: rgba(136, 204, 136, 0.248);
+    width: 100vw;
+    padding-block: 4rem;
+}
+
+.instructor-notice{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    gap: 4rem;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.instructor-details{
+    width: 42rem;
+}
+
+.instructor-img{
+    width: 36rem;
+    height: 36rem;
+}
+
+.desc-list-head{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 0.8rem;
+    align-items: center;
+}
+
+.down-arrow{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    rotate: 180deg;
+}
+
+.close-list{
+    rotate: 0deg;
+}
+
+
+.instructor-desc ul{
+    list-style: disc;
+    font-size: 1rem;
+}
+
+.instructor-desc ul li{
+    padding-top: 0.8rem;
+}
+
+.instructor-btn{
+    padding-block: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-container{
+    font-size: 1.4rem;
+    padding-block: 4rem;
+    background-color: #e6e5e5;
+}
+
+.contact-form{
+    padding: 2.4rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+    margin-top: 2rem;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 1rem;
+    margin-block: 0.6rem;
+    font-size: 1.4rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    font-size: 1.34rem;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    outline: none;
+}
+
+.phone-number{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.country-code{
+    padding: 1rem;
+    height: 3.6rem;
+    border-radius: 0.4rem;
+    padding-block: inherit;
+    border: none;
+}
+
+.submit-cont{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 }
