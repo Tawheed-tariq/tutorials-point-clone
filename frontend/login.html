@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,20 +23,26 @@
             </div>
         </aside>
         <main class="auth-flow">
-           <div class="login-div">
-             <h1 class="auth-create" id="sign-in">SIGN IN</h1>
-             <form class="auth-form">
-                <div class="auth-form__span-2">
-                    <label class="label" for="email">E-mail address / Mobile number</label>
-                    <input id="login_email" type="text" class="input" placeholder="Enter E-mail address Or Mobile number" value="" required="" autofocus="" maxlength="60">
-                </div>
-                <div class="auth-form__span-2">
-                    <p class="error-message login-email-error-message" hidden="">Please enter a valid E-mail / Mobile number.</p>
-                </div>
+            <div class="login-div">
+                <h1 class="auth-create" id="sign-in">SIGN IN</h1>
+                <form class="auth-form">
+                    <div class="auth-form__span-2">
+                        <label class="label" for="email">E-mail address / Mobile number</label>
+                        <input id="login_email" type="text" class="input"
+                            placeholder="Enter E-mail address Or Mobile number" value="" required="" autofocus=""
+                            maxlength="60">
+                    </div>
+                    <div class="auth-form__span-2">
+                        <p class="error-message login-email-error-message" hidden="">Please enter a valid E-mail /
+                            Mobile number.</p>
+                    </div>
 
                 <div class="auth-form__span-2 password" id="pass">
                     <label class="label" for="password">Enter Password</label>
                     <input id="login_password" type="password" class="input" id="pass-word" placeholder="Enter Password" value="" required="">
+                    <!-- <span class="login-wrap-hide-pwd togglePassword"> 
+                        <img src="images/form/visi-on.png" class="visibility-icon">
+                    </span> -->
                 </div>
                 
 				<div class="auth-form__span-2">
@@ -58,14 +63,13 @@
 				</div>
                 <br>
                 
-                <button id="sign_in_btn" type="submit" class="button auth-form__button">Sign In</button>
+                <button id="sign_in_btn" type="button" class="button auth-form__button">Sign In</button>
             </form>
 
 
            </div>
 
 
-             <div class="auth-footer">
 
 
 
@@ -78,9 +82,7 @@
 
 
 
-
-
-             <div class="auth-footer" id="auth-foot">
+            <div class="auth-footer" id="auth-foot">
                 <p class="or-divider">or</p>
                 <div class="login">
                     <a href="#" class="button" id="btnGoogle">
@@ -92,7 +94,7 @@
                     Don't have an account?
                     <a href="#" id="sign-in" class="text-accent-700">Register</a>
                 </p>
-            </div> 
+            </div>
         </main>
     </div>
 </body>
