@@ -625,3 +625,59 @@ export const dev_tools = [
         title : "XML Minifier"
     }
 ]
+
+
+export const python_technologies = [
+    {
+        img: "artificial_intelligence.svg",
+        title : "Artificial Intellegence"
+    },
+    {
+        img: "beautiful_soup_icon.svg",
+        title: "Beautiful Soup"
+    },
+    {
+        img: "behave_icon.svg",
+        title: "Behave"
+    },
+    {
+        img: "biopython_icon.svg",
+        title: "BIPyhton"
+    },
+    {
+        img: "bokeh_icon.svg",
+        title: "Bokeh"
+    },
+    {
+        img: "concurrency_in_python_icon.svg",
+        title: "Concurrency in Python"
+    },
+    {
+        img: "cryptography_with_python_icon.svg",
+        title: "Cryptography with python"
+    },
+    {
+        img: "fastapi_icon.svg",
+        title: "FastAPI"
+    },
+    {
+        img: "jupyter_icon.svg",
+        title: "Jupyter"
+    },
+    {
+        img: "jython_icon.svg",
+        title: "Jython"
+    },
+    {
+        img: "kivy_icon.png",
+        title: "kivy"
+    },
+    {
+        img:"library-sub-banner1.png",
+        title: "Library Sub banner"
+    },
+    {
+        img: "logistic_regression_in_python_icon.svg",
+        title: "Logistic regression in python"
+    }
+]
