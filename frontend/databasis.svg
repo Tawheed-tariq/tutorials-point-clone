@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1B7FBC;}
+	.st1{fill:#076899;}
+	.st2{fill:#1C4761;}
+	.st3{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<g>
+			<path class="st0" d="M20,315.7v91.4c0,33.9,103,61.4,230,61.4s230-27.5,230-61.4v-91.4H20z"/>
+			<g>
+				<ellipse class="st1" cx="250" cy="318" rx="230" ry="61.4"/>
+				<ellipse class="st2" cx="250" cy="312.2" rx="230" ry="55.6"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st3" d="M51.1,396.4c0,5.7,4.6,10.3,10.3,10.3s10.3-4.6,10.3-10.3c0-5.7-4.6-10.3-10.3-10.3S51.1,390.6,51.1,396.4z
+					"/>
+				<circle class="st3" cx="100.7" cy="408.5" r="10.3"/>
+				<circle class="st3" cx="141.5" cy="415.5" r="10.3"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M20,203.2v91.4c0,33.9,103,61.4,230,61.4s230-27.5,230-61.4v-91.4H20z"/>
+			<g>
+				<ellipse class="st2" cx="250" cy="205.4" rx="230" ry="61.4"/>
+				<ellipse class="st1" cx="250" cy="199.7" rx="230" ry="55.6"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<circle class="st3" cx="61.5" cy="283.8" r="10.3"/>
+				<circle class="st3" cx="100.7" cy="296" r="10.3"/>
+				<circle class="st3" cx="141.5" cy="303" r="10.3"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st0" d="M20,90.7V182c0,33.9,103,61.4,230,61.4s230-27.5,230-61.4V90.7H20z"/>
+			<g>
+				<ellipse class="st1" cx="250" cy="92.9" rx="230" ry="61.4"/>
+				<ellipse class="st0" cx="250" cy="87.1" rx="230" ry="55.6"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<circle class="st3" cx="61.5" cy="171.3" r="10.3"/>
+				<circle class="st3" cx="100.7" cy="183.4" r="10.3"/>
+				<path class="st3" d="M131.1,190.4c0,5.7,4.6,10.3,10.3,10.3c5.7,0,10.3-4.6,10.3-10.3c0-5.7-4.6-10.3-10.3-10.3
+					C135.8,180.1,131.1,184.7,131.1,190.4z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
