@@ -16,6 +16,10 @@
     width:100%;
 
 }
+.border:hover{
+    border:1.5px solid #04AF2f;
+    color: #04AF2f;
+}
 .topbox h1{
     margin: 12px;
 font-size:50px;
