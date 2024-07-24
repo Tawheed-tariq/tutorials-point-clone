@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/genral.css">
 </head>
 
 <body>
     <nav>
-        <img class="nav-logo" src="./images/navbar/logo.png" alt="">
+        <img onclick="changePage('index.html')" class="nav-logo" src="./images/navbar/logo.png" alt="">
     </nav>
     <div class="auth-content-wrapper">
         <aside class="auth-aside">
@@ -92,11 +92,12 @@
                 </div>
                 <p class="mt text-center">
                     Don't have an account?
-                    <a href="#" id="sign-in" class="text-accent-700">Register</a>
+                    <a href="#" onclick="changePage('signup.html')" id="sign-in" class="text-accent-700">Register</a>
                 </p>
             </div>
         </main>
     </div>
+    <script src="./js/links.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@
                     <img src="./images/navbar/home-icon.svg" alt="">
                     <p>Home</p>
                 </div>
-                <div class="nav-item">
+                <div onclick="changePage('coding-round.html')" class="nav-item">
                     <img src="./images/navbar/coding-icon.svg" alt="">
                     <p>Coding Ground</p>
                 </div>
@@ -38,11 +38,11 @@
                     <p>Tools</p>
                 </div>
             </div>
-    
-            
+
+
             <!-- starting right nav section which contains social media icons  -->
             <div class="right-nav-section">
-                <div class="nav-item">
+                <div onclick="changePage('teach-with-us.html')" class="nav-item">
                     <img src="./images/navbar/teach-icon.svg" alt="">
                     <p>Teach With Us</p>
                 </div>
@@ -72,10 +72,10 @@
 
             <!-- starting right nav section  -->
             <ul class="right-nav-section">
-                <li>Library</li>
+                <li onclick="changePage('library.html')">Library</li>
                 <li>Articles</li>
                 <li>Certifications</li>
-                <li>
+                <li onclick="changePage('signup.html')">
                     <button class="signup-btn">
                         SIGN UP
                     </button>
@@ -402,6 +402,7 @@
         </div>
     </footer>    
     <script src="./js/index.js"></script>
+    <script src="./js/links.js"></script>
     <script type="module" src="./js/coding-ground.js"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@
 
 <body>
     <nav>
-        <img class="nav-logo" src="./images/navbar/logo.png" alt="">
+        <img onclick="changePage('index.html')" class="nav-logo" src="./images/navbar/logo.png" alt="">
     </nav>
     <div class="auth-content-wrapper">
         <aside class="auth-aside">
@@ -351,11 +351,12 @@
                 </div>
                 <p class="mt text-center">
                     Already have an account?
-                    <a href="#" id="sign-in" class="text-accent-700">Sign In</a>
+                    <a href="#" id="sign-in" onclick="changePage('login.html')" class="text-accent-700">Sign In</a>
                 </p>
             </div> 
         </main>
     </div>
+    <script src="./js/links.js"></script>
 </body>
 
 </html>
